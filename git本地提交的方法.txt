@@ -1,0 +1,16 @@
+操作系统：Linux
+需要安装的软件：git
+
+ssh-keygen -t rsa -C "你的github的邮箱"
+在网页上登录你的githubweb界面，把刚才生成的公钥复制到上面去
+
+git config --global user.email "github的邮箱"
+git config --global user.name "github的名字"
+
+把你自己的git的工程clone到本地
+
+git add .
+
+git commit -m "提交的日子"
+
+git push -u origin master 
