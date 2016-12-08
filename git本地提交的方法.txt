@@ -1,4 +1,4 @@
-操作系统：Linux
+﻿操作系统：Linux
 需要安装的软件：git
 
 ssh-keygen -t rsa -C "你的github的邮箱"
@@ -14,3 +14,33 @@ git add .
 git commit -m "提交的日子"
 
 git push -u origin master 
+
+
+
+二，操作系统：windows
+需要安装的软件：git
+
+ A): check out:
+	1,在指定的git目录下： git init
+	2,git remote add origin [url:你需要check下来的项目的git url]
+	3，git pull origin master
+
+ B):删除某个文件
+	1，git rm <file>
+	2, git add .
+	3, git commit -m "msg"
+	4, git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+GIT 命令:
+
+git status: 查看当前目录的git的状态。
